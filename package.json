@@ -13,6 +13,9 @@
     "dependencies": {
         "@inertiajs/vue3": "^1.0.6",
         "@vitejs/plugin-vue": "^4.2.1",
+        "pinia": "^2.0.35",
+        "pinia-class-store": "^1.1.1",
+        "vue": "^3.2.47",
         "vue3-bem": "^1.0.8"
     }
 }
