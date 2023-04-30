@@ -8,7 +8,7 @@ import {bookModel} from "@/screens/book-screen/book-screen.model.js";
 
 const props = defineProps({
     book: Object
-})
+});
 
 const model = bookModel();
 model.init(props.book.data);

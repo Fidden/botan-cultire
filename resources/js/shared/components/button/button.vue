@@ -2,7 +2,9 @@
     <Component
         v-bind="bindProps"
         :is="isComponent"
-        :class="cnButton()"
+        :class="cnButton('hfhfh', {
+            active: model.book.active
+        })"
     >
         <slot/>
     </Component>
